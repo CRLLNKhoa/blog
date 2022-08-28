@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./asset/img/icon/favicon.ico" type="image/x-icon">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./asset/css/root.css">
+    <link rel="stylesheet" href="./asset/css/resetcss.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/home.css">
+    <!-- End CSS -->
+    <title>My Blog</title>
+</head>
+<body>
+   <div class="grid">
+    <!-- Header -->
+       <div class="header" id="#header">
+        <div class="main-header grid wide">
+          <!-- Logo -->
+            <img src="./asset/img/logo/logo.png" alt="" class="logo">
+            <!-- Menu -->
+            <div class="header__menu">
+                <ul class="menu__list">
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">HOME <i class="fa-solid fa-caret-down"></i></a>
+                    <!-- Home dropdown -->
+                    <div class="home__box">
+                      <ul class="box__list">
+                          <li class="box__item">
+                            HOME 1
+                          </li>
+                          <li class="box__item">
+                            HOME 2
+                          </li>
+                          <li class="box__item">
+                            HOME 3
+                          </li>
+                          <li class="box__item">
+                            HOME 4
+                          </li>
+                          <li class="box__item">
+                            HOME 5
+                          </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">PAGES <i class="fa-solid fa-caret-down"></i></a>
+                    <!-- Page dropdown -->
+                    <div class="page__box">
+                      <ul class="page__list">
+                          <li class="page__item">
+                            PAGE 1
+                          </li>
+                          <li class="page__item">
+                            PAGE 2
+                          </li>
+                          <li class="page__item">
+                            PAGE 3
+                          </li>
+                          <li class="page__item">
+                            PAGE 4
+                          </li>
+                          <li class="page__item">
+                            PAGE 5
+                          </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">SPORTS</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">POLICY</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">FEATURES <i class="fa-solid fa-caret-down"></i></a>
+                    <!-- Features dropdown -->
+                    <div class="features__box">
+                      <ul class="features__list">
+                          <li class="features__item">
+                            SUBMENU 1
+                          </li>
+                          <li class="features__item">
+                            SUBMENU 2
+                          </li>
+                          <li class="features__item">
+                            SUBMENU 3
+                          </li>
+                          <li class="features__item">
+                            SUBMENU 4
+                          </li>
+                          <li class="features__item">
+                            SUBMENU 5
+                          </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>  
+            </div>
+            <div class="header__right">
+                <span class="fa-solid fa-magnifying-glass header__search"></span>
+                <!-- Search -->
+                <div class="search">
+                  <button class="search__close"><i class="fa-solid fa-xmark"></i></button>
+                  <div class="form__search">
+                    <input type="text" class="search__input" placeholder="Search....">
+                    <button class="search__btn"><i class="fa-solid fa-magnifying-glass header__search"></i></button>
+                  </div>
+                </div>
+                <!-- Menu -->
+                <label for="checkbox__input" class="fa-solid fa-bars header__menu"></label>
+                <input type="checkbox" name="" id="checkbox__input" style="display: none;">
+                <label class="overlay" for="checkbox__input"></label>
+                <div class="menu__box">
+                    <div class="menu__box-heading">
+                    <label class="box-heading__close" for="checkbox__input"><i class="fa-solid fa-xmark"></i></label>
+                    </div>
+                    <div class="menu__box-menu">
+                      <ul class="box-menu__list">
+                        <li class="box-menu__item home-menu"><a href="">HOME</a></li>
+                        <div class="home-mb">
+                          <ul class="home-mb__list">
+                            <li class="home-mb__item"><a href="">Home 1</a></li>
+                            <li class="home-mb__item"><a href="">Home 2</a></li>
+                            <li class="home-mb__item"><a href="">Home 3</a></li>
+                            <li class="home-mb__item"><a href="">Home 4</a></li>
+                          </ul>
+                        </div>
+                        <li class="box-menu__item"><a href="">ABOUT</a></li>
+                        <li class="box-menu__item"><a href="">SERVICES</a></li>
+                        <li class="box-menu__item"><a href="">CONTACT</a></li>
+                        <li class="box-menu__item"><a href="">PRIVACY</a></li>
+                      </ul>
+                    </div>
+                    <div class="menu__box-category">
+                        <div class="box-category__label">Categories</div>
+                        <div class="box-category__list">
+                          <span class="box-category__item">
+                            <a href="">Business</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Carousel</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Design</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Games</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Music</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Food</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Sport</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Code</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Learning</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">One</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Two</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Three</a>
+                          </span>
+                          <span class="box-category__item">
+                            <a href="">Four</a>
+                          </span>
+                        </div>
+                    </div>
+                    <div class="menu__box-archive">
+                      <label class="box-archive__label">Archive</label>
+                      <div class="box-archive__list">
+                        <div class="box-archive__item">
+                          <p class="box-archive__month">June</p>
+                          <p class="box-archive__pots">2</p>
+                        </div>
+                        <div class="box-archive__item">
+                          <p class="box-archive__month">September</p>
+                          <p class="box-archive__pots">1</p>
+                        </div>
+                        <div class="box-archive__item">
+                          <p class="box-archive__month">May</p>
+                          <p class="box-archive__pots">2</p>
+                        </div>
+                        <div class="box-archive__item">
+                          <p class="box-archive__month">October</p>
+                          <p class="box-archive__pots">2</p>
+                        </div>
+                        <div class="box-archive__item">
+                          <p class="box-archive__month">April</p>
+                          <p class="box-archive__pots">6</p>
+                        </div>
+                        <div class="box-archive__item">
+                          <p class="box-archive__month">March</p>
+                          <p class="box-archive__pots">22</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+       </div>   
+    <!-- Slider -->
+       <div class="grid wide">
+          <div class="row">
+              <div class="col l-12 m-12 c-12">
+                <div class="row slider">
+                  <div class="row wide slider__item">
+                    <div class="col l-7 m-12 c-12 slider__left">
+                      <img src="./asset/img/slider/slide1.jpg" alt="" class="slider__item-img">
+                    </div>
+                    <div class="col l-5 m-12 c-12 slider__body">
+                      <span class="slider__title"><a href="">Nunc tellus libero, tempus id luctus eget, fermentum et quam.</a></span>
+                      <span class="slider__time"><span>FBTEMPLATES </span> / <span> March 28, 2017</span></span>
+                      <button class="slider__btn">Keep reading....</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row blog" id="blog">
+            <div class="col l-4 m-12 c-12">
+                <div class="blog__item">
+                  <div class="img-thumb">
+                    <img src="./asset/img/blog/blog1.jpg" alt="" class="">
+                  </div>
+                  <div class="blog__body">
+                      <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                      <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                      <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                    </div>
+                </div>
+                <div class="blog__item imgbg">
+                  <div class="img-thumb">
+                    <img src="./asset/img/blog/blog3.jpg" alt="" class="">
+                  </div>
+                  <div class="blog__body">
+                      <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                      <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                      <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                    </div>
+                </div>
+                <div class="blog__item nobody">
+                  <div class="img-thumb">
+                    <img src="./asset/img/blog/blog2.jpg" alt="" class="">
+                  </div>
+                  <div class="blog__body no-bg">
+                      <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                      <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                      <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                    </div>
+                </div>
+                <div class="blog__item purple">
+                  <div class="img-thumb">
+                    <img src="./asset/img/blog/blog1.jpg" alt="" class="">
+                  </div>
+                  <div class="blog__body">
+                      <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                      <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                      <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                    </div>
+                </div>
+                <div class="blog__item nobody">
+                  <div class="img-thumb">
+                    <img src="./asset/img/blog/blog2.jpg" alt="" class="">
+                  </div>
+                  <div class="blog__body no-bg">
+                      <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                      <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                      <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <div class="blog__item nobody">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog2.jpg" alt="" class="">
+                </div>
+                <div class="blog__body no-bg">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+              </div>
+              <div class="blog__item pink">
+                  <div class="img-thumb">
+                    <img src="./asset/img/blog/blog1.jpg" alt="" class="">
+                  </div>
+                  <div class="blog__body">
+                      <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                      <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                      <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                    </div>
+              </div>
+              <div class="blog__item nobody">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog2.jpg" alt="" class="">
+                </div>
+                <div class="blog__body no-bg">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+              </div>
+              <div class="blog__item">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog1.jpg" alt="" class="">
+                </div>
+                <div class="blog__body">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+            </div>
+            <div class="blog__item orange">
+              <div class="img-thumb">
+                <img src="./asset/img/blog/blog1.jpg" alt="" class="">
+              </div>
+              <div class="blog__body">
+                  <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                  <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                  <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                </div>
+          </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <div class="blog__item nobody">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog1.jpg" alt="" class="">
+                </div>
+                <div class="blog__body">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+              </div>
+              <div class="blog__item orange">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog3.jpg" alt="" class="">
+                </div>
+                <div class="blog__body">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+              </div>
+              <div class="blog__item green">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog3.jpg" alt="" class="">
+                </div>
+                <div class="blog__body">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+              </div>
+              <div class="blog__item imgbg">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog3.jpg" alt="" class="">
+                </div>
+                <div class="blog__body">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+              </div>
+              <div class="blog__item nobody">
+                <div class="img-thumb">
+                  <img src="./asset/img/blog/blog1.jpg" alt="" class="">
+                </div>
+                <div class="blog__body">
+                    <span class="blog__title"><a href="./page/posts.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></span>
+                    <span class="blog__time"><span>Google </span> / <span> June 19, 2019</span></span>
+                    <span class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis leo et bibendum pretium. Suspendisse li</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row more-posts">
+            <div class="col l-12 m-12 c-12">
+              <div class="list-inline">
+                <a href="#blog" class="list-inline__link">
+                  <div class="message">more posts</div>
+                  <span class="fa-solid fa-chevron-down"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+       </div>
+    <!-- Footer -->
+       <div class="grid">
+          <div class="fbt-bottom-shape">
+            <svg class="fbt-footer-wave-big" preserveAspectRatio="none" version="1.1" viewBox="5 0 1366 222" width="100%"><path d="M-2.19,238H1366v-4.27c-67.87-24-146.44-43.08-230.75-53.19-253.33-27.78-293.94,51.64-541.13,29.89C318.08,186.31,289.49,32.92,6.9,11.73c-5.21-.42-10.56-.7-15.9-1V238Z" transform="translate(9.5 -10.22)"></path></svg>
+          </div>
+       </div>
+       <div class="footer">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-4 m-12 c-12">
+              <div class="footer-1">
+                <div class="footer-1__img">
+                  Make by LNKhoa
+                </div>
+                <div class="footer-1__text">
+                  <div class="footer-1__content">
+                  <p>Phasellus deserunt. Convallis perspiciatis fusce fermentum accumsan, arcu aliquam, velit venenatis augue proin, enim etiam dolor. Mi ac lectus vitae cum, fusce purus posuere.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2 m-12 c-12">
+            </div>
+            <div class="col l-2 m-12 c-12">
+              <div class="footer-2">
+                <div class="footer-2__title">
+                  About
+                </div>
+                <div class="footer-2__content">
+                  <ul class="footer-2__list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Lifestyle</a></li>
+                    <li><a href="">People</a></li>
+                    <li><a href="">Slider</a></li>
+                    <li><a href="">Sports</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2 m-12 c-12">
+              <div class="footer-3">
+                <div class="footer-3__title">
+                  Categories
+                </div>
+                <div class="footer-3__content">
+                  <ul class="footer-3__list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Lifestyle</a></li>
+                    <li><a href="">People</a></li>
+                    <li><a href="">Slider</a></li>
+                    <li><a href="">Futures</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col l-2 m-12 c-12">
+              <div class="footer-4">
+                <div class="footer-4__title">
+                  Account
+                </div>
+                <div class="footer-4__content">
+                  <ul class="footer-4__list">
+                    <li><a href="">Business</a></li>
+                    <li><a href="">Lifestyle</a></li>
+                    <li><a href="">Design</a></li>
+                    <li><a href="">Techtolory</a></li>
+                    <li><a href="">Training</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l-12 m-12 c-12">
+              <div class="row credit">
+                <div class="made-by col l-6 c-12 m-12">
+                  <span>© 2022 Nemesis | All Rights Reserved</span>
+                </div>
+                <div class="follows col l-6 c-12 m-12">
+                  <span>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+   </div>
+</body>
+<script src="./asset/js/home.js"></script>
+
+</html>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
+html{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root{
+    --white-color: rgb(255, 255, 255);
+    --border-top-color: #65CDFB;
+    --line-color: #EEEEEE;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+ul, li{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.block{
+    display: block!important;
+}
+
+.none{
+   display: none;
+}
+
+.closeSearchAnimation{
+    animation: hidden 0.5s ease-out;
+}
